@@ -1,17 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Momiji and Next.js Example
+
+This example shows how to use [Momiji](https://www.github.com/momiji-ai) with Next.js. Th example features sign-up, sign-in, stripe payment integration, and an authenticated API routing between your application and Momiji.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app@latest with-momiji --use-pnpm --example "https://github.com/momiji-ai/next.js/tree/momiji/examples/with-momiji"
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
